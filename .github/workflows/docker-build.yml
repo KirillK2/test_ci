@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: 
-    - run: docker build -t test-image dockerfile
+    - run: docker build -t test-image . --file dockerfile
